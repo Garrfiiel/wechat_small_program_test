@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/tmp/workspace/7a5798cb-f56c-4ddf-bee1-3d4120f807b9/.cloudbase-mcp/logs/.f7b1f857ea8191d5b680ce03690c59eb2b3c7656-audit.json",
+    "files": [
+        {
+            "date": 1782956046906,
+            "name": "/tmp/workspace/7a5798cb-f56c-4ddf-bee1-3d4120f807b9/.cloudbase-mcp/logs/cloudbase-mcp-2026-07-02.log",
+            "hash": "cb390197361bd4da18b61c86e39657c4357566d253b7bb37d1977bf77d34b2e1"
+        }
+    ],
+    "hashType": "sha256"
+}
