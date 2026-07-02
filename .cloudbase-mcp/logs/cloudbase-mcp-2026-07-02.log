@@ -57,3 +57,42 @@
   "eventCode": "toolkit_lifecycle",
   "deviceId": "a4951982..."
 }
+[2026-07-02T01:36:22.660+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-07-02T01:36:22.692+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "a4951982...",
+  "ide": "none"
+}
+[2026-07-02T01:36:22.716+00:00] [DEBUG] [cache] evaluated cache meta {
+  "ageMs": 134969,
+  "ttlMs": 86400000,
+  "valid": true
+}
+[2026-07-02T01:36:22.717+00:00] [DEBUG] [downloadResources] 使用缓存（快速路径）
+[2026-07-02T01:36:22.730+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-07-02T01:36:22.731+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "wechat-test-d6go2qaz3496672d6",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-07-02T01:36:22.731+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "wechat-test-d6go2qaz3496672d6",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-07-02T01:36:22.863+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "a4951982..."
+}
